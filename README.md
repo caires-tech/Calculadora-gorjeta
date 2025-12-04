@@ -39,12 +39,12 @@ Criada como parte da minha jornada de estudos em JavaScript.
 ## ▶️ Como Rodar o Projeto
 
 ### 🔹 Opção 1 — Abrir diretamente
-Basta abrir o arquivo **index.html** no navegador.
+  Basta abrir o arquivo **index.html** no navegador.
 
 ### 🔹 Opção 2 — Usando Live Server (VS Code)
-1. Instale a extensão **Live Server**  
-2. Clique com botão direito no `index.html`  
-3. Selecione **"Open with Live Server"**
+  1. Instale a extensão **Live Server**  
+  2. Clique com botão direito no `index.html`  
+  3. Selecione **"Open with Live Server"**
 ---
 
 ## 📤 Como Clonar
