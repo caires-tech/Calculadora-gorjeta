@@ -54,13 +54,13 @@ cd Calculadora-gorjeta
 
 Em seguida, abra o index.html.
 🌐 Deploy com GitHub Pages (opcional)
-Vá na aba Settings
-Menu Pages
-Em “Source”:
-Selecione Main branch
-E pasta / (root)
-Salve
-O GitHub criará uma URL do tipo:
+Vá na aba Settings  
+Menu Pages  
+Em “Source”:  
+Selecione Main branch  
+E pasta / (root)  
+Salve  
+O GitHub criará uma URL do tipo:  
 https://caires-tech.github.io/Calculadora-gorjeta/
 ---
 
