@@ -19,22 +19,22 @@ Criada como parte da minha jornada de estudos em JavaScript.
 ---
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (vanilla)**
-- Efeitos modernos:
-  - Glassmorphism
-  - Sliders animados
-  - Toggle de tema (light/dark)
-  - Transições suaves
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (vanilla)**  
+- Efeitos modernos:  
+  - Glassmorphism  
+  - Sliders animados  
+  - Toggle de tema (light/dark)  
+  - Transições suaves  
 ---
 ## 📂 Estrutura do Projeto
 
-/calculadora-gorjeta
-├── index.html # Estrutura da página
-├── styles.css # Estilização completa
-├── index.js # Lógica da calculadora
-└── screenshot.png # Imagem usada no README
+/calculadora-gorjeta  
+├── index.html # Estrutura da página  
+├── styles.css # Estilização completa  
+├── index.js # Lógica da calculadora  
+└── screenshot.png # Imagem usada no README  
 ---
 ## ▶️ Como Rodar o Projeto
 
@@ -49,11 +49,11 @@ Basta abrir o arquivo **index.html** no navegador.
 
 ## 📤 Como Clonar
 
-git clone https://github.com/caires-tech/Calculadora-gorjeta.git
-cd Calculadora-gorjeta
+git clone https://github.com/caires-tech/Calculadora-gorjeta.git  
+cd Calculadora-gorjeta  
 
-Em seguida, abra o index.html.
-🌐 Deploy com GitHub Pages (opcional)
+Em seguida, abra o index.html.  
+🌐 Deploy com GitHub Pages (opcional)  
 Vá na aba Settings  
 Menu Pages  
 Em “Source”:  
@@ -66,22 +66,22 @@ https://caires-tech.github.io/Calculadora-gorjeta/
 
 ## 📝 Sobre o Projeto
 
-Desenvolvido para reforçar conceitos de:
-Manipulação de DOM
-Eventos
-Cálculos simples com inputs
-Responsividade
-Design moderno (UI/UX)
-Este projeto faz parte da minha caminhada evoluindo no desenvolvimento web.
+Desenvolvido para reforçar conceitos de:  
+Manipulação de DOM  
+Eventos  
+Cálculos simples com inputs  
+Responsividade  
+Design moderno (UI/UX)  
+Este projeto faz parte da minha caminhada evoluindo no desenvolvimento web.  
 ---
 
 ## 📄 Licença
 
-Livre para uso, modificação e estudo.
-Se quiser deixar formal, adicione um arquivo LICENSE.
+Livre para uso, modificação e estudo.  
+Se quiser deixar formal, adicione um arquivo LICENSE.  
 
 ---
 ## 👨‍💻 Autor
 
-Rodrigo Caires
+Rodrigo Caires  
 GitHub: @caires-tech
