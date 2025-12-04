@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Define o padrão de caracteres -->
+    <meta charset="UTF-8" />
+
+    <!-- Responsividade para celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importa a fonte Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculadora de Gorjeta</title>
+  </head>
+
+  <body>
+    <!-- Container principal que segura tudo -->
+    <main oninput="update()">
+      
+      <!-- Barra superior com o título e o botão de tema -->
+      <div class="top-bar">
+        <h1>Calculadora de Gorjeta</h1>
+
+        <!-- Botão que alterna entre claro/escuro -->
+        <button id="themeToggle" class="theme-toggle">🌙</button>
+      </div>
+
+      <!-- PRIMEIRA CAIXA: Conta + Gorjeta + Total -->
+      <section>
+        
+        <!-- Campo do valor da conta -->
+        <div class="bill">
+          <label for="yourBill">Conta (R$)</label>
+          <input type="number" placeholder="Valor da conta" id="yourBill" />
+        </div>
+
+        <!-- Seleção rápida de gorjetas -->
+        <div class="tip-buttons">
+          <button class="tip-btn" data-value="5">5%</button>
+          <button class="tip-btn" data-value="10">10%</button>
+          <button class="tip-btn" data-value="15">15%</button>
+          <button class="tip-btn" data-value="20">20%</button>
+        </div>
+
+        <!-- Slider de gorjeta + texto -->
+        <div>
+          <div class="space-between">
+            <label>Selecione a gorjeta</label>
+            <span id="tipPercent"></span>
+          </div>
+          <input type="range" value="0" id="tipInput" class="range" />
+        </div>
+
+        <!-- Valor da gorjeta -->
+        <div class="space-between">
+          <span>Gorjeta</span>
+          <span id="tipValue"></span>
+        </div>
+
+        <hr />
+
+        <!-- Total com gorjeta -->
+        <div class="space-between total">
+          <span>Total</span>
+          <span id="totalWithTip"></span>
+        </div>
+      </section>
+
+      <!-- SEGUNDA CAIXA: Dividir conta -->
+      <section>
+        <div>
+          <div class="space-between">
+            <label for="splitInput">Dividir por</label>
+            <span id="splitValue"></span>
+          </div>
+
+          <!-- Slider para separar em até 10 pessoas -->
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value="1"
+            id="splitInput"
+            class="range"
+          />
+        </div>
+
+        <!-- Valor para cada pessoa -->
+        <div class="space-between">
+          <span>Valor por pessoa</span>
+          <span id="billEach"></span>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>
