@@ -13,7 +13,9 @@ Criada como parte da minha jornada de estudos em JavaScript.
 ✔️ Responsivo (mobile friendly)  
 ✔️ Animações sutis ao atualizar valores  
 ---
-![Preview da calculadora](screenshot.jpg)
+<p align="center">
+  <img src="screenshot.jpg" alt="Preview da calculadora" width="380">
+</p>
 ---
 ## 🛠️ Tecnologias Utilizadas
 
