@@ -46,7 +46,7 @@ Basta abrir o arquivo **index.html** no navegador.
 ---
 
 ## 📤 Como Clonar
-```bash
+
 git clone https://github.com/caires-tech/Calculadora-gorjeta.git
 cd Calculadora-gorjeta
 
@@ -62,7 +62,7 @@ O GitHub criará uma URL do tipo:
 https://caires-tech.github.io/Calculadora-gorjeta/
 ---
 
-📝 Sobre o Projeto
+## 📝 Sobre o Projeto
 
 Desenvolvido para reforçar conceitos de:
 Manipulação de DOM
@@ -73,13 +73,13 @@ Design moderno (UI/UX)
 Este projeto faz parte da minha caminhada evoluindo no desenvolvimento web.
 ---
 
-📄 Licença
+## 📄 Licença
 
 Livre para uso, modificação e estudo.
 Se quiser deixar formal, adicione um arquivo LICENSE.
 
 ---
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Rodrigo Caires
 GitHub: @caires-tech
